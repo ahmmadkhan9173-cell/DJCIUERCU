@@ -1,0 +1,38 @@
+/* static/style.css */
+
+/* Body styling with background */
+body {
+    background-image: url("images/bg.jpg");  /* images folder me rakhi image */
+    background-size: cover;                  /* page ko fully cover kare */
+    background-repeat: no-repeat;            /* repeat na ho */
+    background-position: center;             /* center me align ho */
+    font-family: Arial, sans-serif;          /* font */
+    text-align: center;                      /* content center align ho */
+    margin: 50px 0 0 0;                      /* top margin 50px, baaki 0 */
+    padding: 0;                              
+}
+
+/* Form inputs styling */
+input, textarea {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional: Button hover effect */
+button:hover {
+    background-color: darkblue;
+}
